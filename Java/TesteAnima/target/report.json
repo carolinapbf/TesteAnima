@@ -1,0 +1,140 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: pt"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Cadastro com sucesso",
+        "description": "",
+        "id": "cadastro-de-usuário;cadastro-com-sucesso",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 13562258966,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que estou na pagina de cadastro",
+            "match": {
+              "location": "testeAnimaSteps.queEstouNaPaginaDeCadastro()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 584441028,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "os campos são preenchidos com",
+            "match": {
+              "location": "testeAnimaSteps.osCamposSãoPreenchidosCom(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Nome",
+                  "Fernanda"
+                ],
+                "line": 10
+              },
+              {
+                "cells": [
+                  "Ultimo nome",
+                  "Teixeira"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "email",
+                  "fernanda12456@gmail.combr"
+                ],
+                "line": 12
+              },
+              {
+                "cells": [
+                  "endereço",
+                  "Rua X, 1234"
+                ],
+                "line": 13
+              },
+              {
+                "cells": [
+                  "Universidade",
+                  "Unibh"
+                ],
+                "line": 14
+              },
+              {
+                "cells": [
+                  "Prosissão",
+                  "QA"
+                ],
+                "line": 15
+              },
+              {
+                "cells": [
+                  "Gênero",
+                  "Ferminino"
+                ],
+                "line": 16
+              },
+              {
+                "cells": [
+                  "Idade",
+                  "26"
+                ],
+                "line": 17
+              }
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 958736752,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "envio um formulario dados usuario para cadastro",
+            "match": {
+              "location": "testeAnimaSteps.envioUmFormularioDadosUsuarioParaCadastro()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 44481244,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "visualizo uma mensagem de sucesso \"Usuário Criado com sucesso\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Usuário Criado com sucesso",
+                  "offset": 35
+                }
+              ],
+              "location": "testeAnimaSteps.visualizoUmaMensagemDeSucesso(String)"
+            },
+            "keyword": "Então "
+          }
+        ]
+      }
+    ],
+    "name": "Cadastro de Usuário",
+    "description": "  Sendo um usuário do site\n  Posso acessar o site de Automação\n  Para realizar cadastros de um novo usuário",
+    "id": "cadastro-de-usuário",
+    "keyword": "Funcionalidade",
+    "uri": "teste_anima.feature"
+  }
+]
