@@ -48,7 +48,10 @@ public class testeAnimaSteps {
 		String texto = driver.findElement(By.id("notice")).getText();
 		Assert.assertEquals("Usuário Criado com sucesso", texto);
 	}
-
 	
+	@After()
+	public void fecharBrowser() {
+		driver.quit();
+	}
 
 }
