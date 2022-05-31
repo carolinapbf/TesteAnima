@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "assert": "^2.0.0",
-    "chai": "^4.2.0",
+    "chai": "^4.3.6",
     "cucumber": "^5.1.0",
     "cucumberjs-chromedriver": "^0.3.1",
     "geckodriver": "^1.16.2",
